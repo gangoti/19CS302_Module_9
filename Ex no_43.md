@@ -4,23 +4,40 @@
 To Write a function to display queue elements using array.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+Start. Define a variables. Write a function to display queue elements using array. Read the value using scanf. Ask the user to make an input. Print out the answer. End.   
 
 ## Program:
 ```
 /*
 C program to write a function to display queue elements using array.
-Developed by: 
-RegisterNumber:  
+Developed by: DUDEKULA HASEENA
+RegisterNumber:212222063004
+float queue[50]; 
+int rear=-1,front=-1,i; 
+void display() 
+{ 
+if(front==-1||front>rear) 
+printf("No elements to display\n"); 
+else 
+{ 
+for(i=front;i<=rear;i++) 
+printf("%.1f\n",queue[i]); 
+} 
+ 
+} 
+void display() 
+{ 
+if(front==-1||front>rear) 
+{  
+printf("No elements to display\n"); 
+else 
+{ 
+for(i=front;i<=rear;i++)
 */
 ```
 
 ## Output:
-
+<img width="1063" height="457" alt="image" src="https://github.com/user-attachments/assets/fc81cc2b-feb2-46ff-be48-c41bf34cad4f" />
 
 
 ## Result:
